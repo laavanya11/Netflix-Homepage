@@ -4,3 +4,99 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+
+body{
+    background: #000;
+    color: #fff;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./Images/header-image.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo{
+    width: 20%;
+    cursor: pointer;
+}
+
+nav button{
+    border: 0;
+    outline: 0;
+    background: #e30f0f;
+    color: #fff;
+    padding: 10px 20px 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    margin-top: 100px;
+}
+
+.header-content h1{
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 600;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.header-content h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.header-content p{
+    font-weight: 200;
+    margin-bottom: 8px;
+}
+
+.email{
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.email input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 15px;
+}
+
+.email button{
+    background: #e30f0f;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 20px 15px;
+}
+    
+
+
+
