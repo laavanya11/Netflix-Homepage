@@ -135,5 +135,79 @@ nav button{
     margin-bottom: 20px;
 }
 
+/*------FAQ------*/
+
+.FAQ{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.FAQ h2{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.QA{
+    margin: 30px auto;
+    width: 100%;
+    max-width: 1000px;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+
+.QA li{
+    list-style: none;
+    width: 100%;
+    padding: 2px;
+}
+
+.QA li label{
+    display: flex;
+    align-items: center;
+    padding: 30px 20px;
+    background: #363434;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+label::after{
+    content: '+';
+    font-size: 50px;
+    position: absolute;
+    right: 20px;
+}
+
+.QA .content{
+    background-color: #373333;
+    text-align: center;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.QA input[type="radio"]:checked +label +.content{
+    max-height: 500px;
+    padding: 30px 20px;
+} 
+
+.FAQ p{
+    font-size: 20px;
+}
+
+.FAQ email{
+    margin: 20px auto 60px;
+    max-width: 600px;
+}
+
+
+
 
 
